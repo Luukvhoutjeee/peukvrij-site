@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacyverklaring — PeukVrij</title>
+<meta name="description" content="Wat PeukVrij met je gegevens doet: ze blijven op je toestel, tenzij je zelf iCloud-synchronisatie aanzet.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f6f7f9;
+    --card: #ffffff;
+    --text: #14161a;
+    --text2: #40464f;
+    --text3: #6b7280;
+    --line: #e3e6ea;
+    --accent: #1c7ef3;
+    --note-bg: #fff6e5;
+    --note-line: #f0b429;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0e1013;
+      --card: #16191e;
+      --text: #f2f4f7;
+      --text2: #c3c9d2;
+      --text3: #8b93a0;
+      --line: #262b32;
+      --accent: #5aa6ff;
+      --note-bg: #241d0c;
+      --note-line: #b98a1c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 32px 20px 64px;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 720px; margin: 0 auto; }
+  header { margin-bottom: 28px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .updated { color: var(--text3); font-size: 0.9rem; margin: 0; }
+  h2 {
+    font-size: 1.15rem; margin: 34px 0 10px; letter-spacing: -0.01em;
+    padding-top: 20px; border-top: 1px solid var(--line);
+  }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p, li { color: var(--text2); }
+  ul { padding-left: 1.25em; }
+  li { margin: 6px 0; }
+  strong { color: var(--text); }
+  a { color: var(--accent); }
+  code {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 5px; padding: 1px 5px; font-size: 0.88em;
+  }
+  .lead {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 14px; padding: 16px 18px; margin: 0 0 8px;
+  }
+  .note {
+    background: var(--note-bg); border-left: 3px solid var(--note-line);
+    border-radius: 0 10px 10px 0; padding: 12px 16px; margin: 16px 0;
+  }
+  footer {
+    margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line);
+    color: var(--text3); font-size: 0.88rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Privacyverklaring — PeukVrij</h1>
+    <p class="updated">Laatst bijgewerkt: 10 september 2026</p>
+  </header>
+
+  <p class="lead">PeukVrij is een app die bijhoudt hoelang je gestopt bent met roken of vapen.
+    Deze verklaring beschrijft wat er met je gegevens gebeurt. Kort gezegd: ze blijven op je
+    telefoon — tenzij je zelf iCloud-synchronisatie aanzet, zie hieronder.</p>
+
+  <h2>Welke gegevens verwerkt de app?</h2>
+  <p>In de app vul je zelf in:</p>
+  <ul>
+    <li>je naam of bijnaam;</li>
+    <li>je reden om te stoppen (optioneel);</li>
+    <li>het moment waarop je bent gestopt;</li>
+    <li>hoeveel je rookte of vaapte en wat dat kostte;</li>
+    <li>je profielfoto: één van de vijf vaste plaatjes, of een eigen foto die je zelf kiest (optioneel);</li>
+    <li>een spaardoel (optioneel);</li>
+    <li>momenten waarop je op “Ik heb trek” of “Ik heb gerookt” drukte;</li>
+    <li>de reden die je daar zelf bij typt (optioneel, bijvoorbeeld “stress op werk”) — dat is een
+      vrij tekstveld, dus er komt in te staan wat jij erin zet. Het hoort bij dat moment in je
+      logboek en gaat mee als je iCloud-synchronisatie aanzet of je voortgang exporteert.</li>
+  </ul>
+
+  <h2>Je profielfoto</h2>
+  <p>Kies je een eigen foto, dan gebruikt de app de fotokiezer van iOS zelf. Die draait buiten de
+    app om: de app krijgt alléén de foto die je aanwijst te zien, niet je fotobibliotheek — daarom
+    vraagt de app ook geen toegang tot je foto’s. De gekozen foto wordt vierkant bijgesneden,
+    verkleind en als kleine kopie bij je profiel bewaard, op dezelfde plek als de rest. Zet je
+    iCloud-synchronisatie aan, dan gaat die kopie mee naar je eigen iCloud-account. Met
+    <strong>Foto verwijderen</strong> in de fotokiezer van de app is hij meteen weg.</p>
+
+  <h2>Waar worden ze bewaard?</h2>
+  <p>Lokaal op je toestel, in de opslag die iOS aan de app toewijst (<code>UserDefaults</code>).
+    Er is één uitzondering, en die zet je zelf aan: iCloud-synchronisatie (zie verderop). Staat die
+    uit — de standaardstand — dan verlaten je gegevens je telefoon niet.</p>
+  <ul>
+    <li>Er is <strong>geen account</strong> en geen inlog.</li>
+    <li>Er is <strong>geen server van de maker</strong>: de app stuurt je gegevens nergens naartoe.
+      De enige verbindingen die de app zelf legt, lopen naar Apple: iCloud als je dat aanzet, en de
+      App Store als je PeukVrij Pro koopt.</li>
+    <li>Er zijn <strong>geen advertenties</strong>, <strong>geen trackers</strong> en
+      <strong>geen statistiek- of analysesoftware</strong>.</li>
+    <li>De maker van de app kan <strong>niet</strong> bij je gegevens.</li>
+  </ul>
+  <p>Maak je een back-up van je iPhone via iCloud of je computer, dan kan de opslag van de app
+    daarin meegaan. Die back-up is van jou en valt onder het privacybeleid van Apple.</p>
+
+  <h2>Meldingen</h2>
+  <p>Zet je in <strong>Instellingen → Melding bij een behaalde mijlpaal</strong> aan, dan vraagt de
+    app toestemming voor lokale meldingen en plant ze zelf, op het toestel, op basis van je
+    stopmoment. Er is geen server bij betrokken: de melding wordt gewoon door iOS zelf op het
+    afgesproken moment getoond, ook als de app dicht staat. Zet je hem uit, dan verdwijnen geplande
+    meldingen.</p>
+
+  <h2>iCloud-synchronisatie (optioneel)</h2>
+  <p>Zet je in <strong>Instellingen → Synchroniseer via iCloud</strong> aan, dan is dit de enige
+    plek waar je gegevens je toestel verlaten: je profiel (naam, stopmoment, verbruik, profielfoto,
+    prestaties) wordt dan bewaard in je eigen iCloud-account
+    (<code>NSUbiquitousKeyValueStore</code>), zodat het overkomt op een ander toestel met hetzelfde
+    Apple ID. Dat gebeurt met Apple’s eigen iCloud-infrastructuur, niet met een server van de maker
+    van de app — die kan er nog steeds niet bij.</p>
+  <ul>
+    <li>Deze functie staat <strong>standaard uit</strong>; je zet hem zelf aan.</li>
+    <li>Zet je hem weer uit, dan stopt de app met meesturen, maar een eerder verstuurde kopie kan in
+      je iCloud-account blijven staan totdat je hem overschrijft of
+      <strong>Alle gegevens wissen</strong> gebruikt (die wist ook de iCloud-kopie, als
+      synchronisatie op dat moment aanstond).</li>
+    <li>Gebruik je meerdere toestellen tegelijk met synchronisatie aan, dan geldt “laatste wijziging
+      wint” — er wordt niet inhoudelijk samengevoegd.</li>
+  </ul>
+
+  <h2>PeukVrij Pro (eenmalige aankoop)</h2>
+  <p>Koop je PeukVrij Pro, dan verloopt die betaling volledig via Apple (StoreKit / de App Store) —
+    de app zelf verwerkt of ziet je betaalgegevens nooit, en de maker krijgt alleen van Apple te
+    horen dát er gekocht is, niet met welke betaalmethode. Wat de aankoop ontgrendelt (widgets,
+    voortgang-inzichten en de export) gebruikt geen andere gegevens dan wat al op je toestel staat,
+    en rekent alles op het toestel zelf uit. Op de aankoop is de
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">standaardlicentie
+    van Apple</a> van toepassing.</p>
+
+  <h2>Voortgang delen en exporteren</h2>
+  <p>Je kunt je voortgang delen als afbeelding (gratis, via de deelknop op de teller) of met
+    PeukVrij Pro exporteren als tekst. Allebei gaat via de systeem-deelfunctie van iOS: jij kiest
+    zelf waar het naartoe gaat (bijvoorbeeld Berichten, Mail, een bestand bewaren) — de app stuurt
+    nergens automatisch iets naartoe.</p>
+  <p>De deelbare kaart wordt op je toestel getekend en bevat alleen wat je erop ziet staan: je
+    voornaam, je profielfoto, hoelang je vrij bent, wat je bespaarde en je level. Je logboek, je
+    redenen en je losse trekmomenten staan er niet op. De afbeelding wordt in de tijdelijke map van
+    de app gezet zodat het deelvenster hem kan oppakken; iOS ruimt die map zelf op.</p>
+
+  <h2>Widget</h2>
+  <p>Voeg je het PeukVrij-widget toe aan je beginscherm, dan toont dat hoelang je al rookvrij of
+    vapevrij bent. Het widget leest daarvoor een kleine momentopname (stopmoment, product, voornaam)
+    die de app lokaal deelt via een App Group — dat blijft op het toestel, net als de rest. Je
+    voornaam zit daar dus in; je logboek, je redenen, je bedragen en je foto niet. Bedenk wel dat
+    iedereen die je beginscherm ziet, dan ook dit meeleest.</p>
+
+  <h2>Externe links</h2>
+  <p>Bij “Over deze app” staan links naar <code>ikstopnu.nl</code>, <code>thuisarts.nl</code>, naar
+    deze privacyverklaring en naar de standaardlicentie van Apple die op de aankoop van PeukVrij Pro
+    van toepassing is. Tik je er een aan, dan open je die pagina in je browser. Wat daar gebeurt,
+    valt onder het privacybeleid van die partijen. De app gebruikt zelf geen ingebouwde browser,
+    geen cookies en geen trackingpixels.</p>
+
+  <h2>Hoe verwijder je je gegevens?</h2>
+  <p>Twee manieren, allebei definitief:</p>
+  <ul>
+    <li>In de app: <strong>Instellingen → Alle gegevens wissen</strong>. Dat wist je profiel op dit
+      toestel, inclusief de opslag van vroeger toen de app nog Rookvrij heette, en de momentopname
+      die het widget leest. Stond iCloud-synchronisatie op dat moment aan, dan wordt de lege staat
+      ook daarheen geduwd.</li>
+    <li>Verwijder de app van je toestel.</li>
+  </ul>
+  <p>Staat synchronisatie uit en heb je hem nooit aangehad, dan is er niets dat op een andere plek
+    achterblijft. Heb je hem eerder wél aangehad en daarna uitgezet, gebruik dan eerst
+    <strong>Alle gegevens wissen</strong> met synchronisatie áán: anders blijft de laatst verstuurde
+    kopie in je iCloud-account staan.</p>
+
+  <h2>Je rechten</h2>
+  <p>De AVG geeft je recht op inzage, correctie en verwijdering van je gegevens. Omdat alle gegevens
+    alleen op jouw eigen toestel staan en de maker er geen toegang toe heeft, oefen je die rechten
+    uit in de app zelf: alles is er in te zien, aan te passen en te wissen.</p>
+
+  <h2>Kinderen</h2>
+  <p>De app is niet gericht op kinderen en vraagt bewust niet naar leeftijd of andere gegevens die
+    kinderen zouden identificeren.</p>
+
+  <h2>Wijzigingen</h2>
+  <p>Verandert er iets aan hoe de app met gegevens omgaat, dan wordt deze verklaring aangepast en de
+    datum bovenaan bijgewerkt.</p>
+
+  <h2>Contact</h2>
+  <div class="note">
+    <strong>Nog in te vullen vóór publicatie.</strong> Vervang het adres hieronder door je eigen
+    e-mailadres — hetzelfde adres als in App Store Connect — en haal dit kader weg.
+  </div>
+  <p>
+    <strong>E-mail:</strong> <a href="mailto:VUL-JE-EMAIL-IN@voorbeeld.nl">VUL-JE-EMAIL-IN@voorbeeld.nl</a><br>
+    <strong>Verantwoordelijke:</strong> VUL-JE-NAAM-IN
+  </p>
+
+  <footer>
+    PeukVrij · <a href="./">Ondersteuning</a> ·
+    <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Gebruiksvoorwaarden</a>
+  </footer>
+</main>
+</body>
+</html>
